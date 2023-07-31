@@ -1,0 +1,286 @@
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1rem;
+}
+
+/* Navigation Bar */
+
+.custom-nav-icon{
+	font-size: 1.2rem;
+	color: #2ef5e9;
+}
+
+.custom-nav-bar {
+	font-size: 1.2rem;
+	font-weight: 700;
+	color: #E1D9D1;
+}
+
+
+.custom-ul-li {
+	font-size: 1.2rem;
+}
+
+.remove-spacing {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+/* Navbar Hover Effect */
+
+.navbar-nav .nav-link {
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+.navbar-nav .nav-link::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #2ef5e9;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+.navbar-nav .nav-link:hover::after{
+    width: 100%;
+}
+
+.title-sections {
+	color: #2ef5e9;
+} /* This is a fa styling for sections title such as home, about, skills */
+
+
+/* Landing Page */
+/* landing page - background image */
+
+#landing {
+  background-image: url("./images/background-landing.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.custom-bg {
+  min-height: 100vh;
+}
+
+.custom-bg h2,
+.custom-bg h3,
+.custom-bg h4,
+.custom-bg div {
+  text-align: center;
+}
+
+.custom-img {
+	height: 20%;
+	width: 20%;
+	border: 1px solid #2ef5e9;
+	border-radius: 50%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 255), 0 6px 20px 0 rgba(0, 0, 0, 128);
+}
+
+.custom-word {
+	color: #2ef5e9;
+	text-decoration: none;
+}
+
+.custom-text {
+	color: #E1D9D1;
+}
+
+.get-in-touch {
+	margin-top: 50px;
+	margin-bottom: 18px;
+}
+
+.custom-fa {
+	margin-top: 18px;
+	cursor: pointer;
+}
+
+.custom-landing-content {
+	font-size: 2rem;
+}
+
+.fa-brands {
+	font-size: 2rem;
+	color: #2ef5e9;
+}
+
+.fa-linkedin {
+	padding-left: 15px;
+	padding-right: 10px;
+}
+
+.fa-github {
+	padding-left: 10px;
+	padding-right: 15px;
+}
+
+.custom-fa i:hover {
+	transform: translateY(-5px);
+	transition: 0.4s;
+}
+
+/* About Section */
+
+.my-custom-bg {
+	background-color: #000000;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(46, 245, 233, 1.0), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.row-custom-bg {
+	background-color: #000000;
+}
+
+.text-justify-custom {
+	text-align: justify;
+	text-justify: inter-word;
+	list-style-type: none;
+}
+
+.about-me-paragraph {
+	font-size: 1.1rem;
+	font-weight: 400;
+}
+
+.text-justify-custom-sub,
+.backtop {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+
+.ul-sub-titles {
+	font-size: 1.1rem;
+	font-weight: 500;
+}
+
+.fa-paragraph,
+.text-color-contact {
+	color: #E1D9D1;
+}
+
+/* Skills Section */
+
+.headof-skills,
+.headof-contact {
+	background-color: none;
+	color: #E1D9D1;
+	margin-bottom: 30px;
+	padding-top: 100px;
+	padding-bottom: 20px;
+}
+
+.capsule {
+  display: inline-block;
+  padding: 8px 16px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-color: #E1D9D1;
+  color: #000000;
+  font-size: 1rem;
+  font-weight: 700;
+  border: 2px solid #E1D9D1;
+  margin-bottom: 20px;
+}
+
+.skills-bg-color {
+	background-color: #000000;
+	height: auto;
+	width: auto;
+	box-shadow: 0 4px 8px 0 rgba(46, 245, 233, 1.0), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+	border-radius: 15px;
+}
+
+.heading-skills {
+	color: #E1D9D1;
+	padding-bottom: 18px;
+}
+
+.skills-fa {
+	color: #2ef5e9;
+	font-size: 1.5rem;
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 15px;
+}
+
+/* Project Section */
+
+#projects {
+	margin-bottom: 30px;
+	padding-top: 100px;
+	padding-bottom: 20px;
+}
+
+.project-row-field {
+	height: 100%;
+	width: 100%;
+	color: #E1D9D1;
+}
+
+.project-modified-img {
+	height: 100%;
+	width: auto;
+	border-radius: 15px;
+	box-shadow: 0 4px 8px 0 rgba(46, 245, 233, 1.0), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+
+.project-item {
+  cursor: pointer;
+  overflow: hidden; /* To hide the project description initially */
+}
+
+.project-content {
+  position: relative;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(46, 245, 233, 1.0), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s; /* Adding a slide-up animation */
+}
+
+.project-content img {
+  width: 100%;
+  height: auto;
+}
+
+.project-description {
+  position: absolute;
+  bottom: -100%; /* Start the project description below the image */
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+  color: #fff;
+  transition: bottom 0.3s; /* Adding slide-up animation for the description */
+}
+
+.project-item:hover .project-description {
+  bottom: 0; /* Slide up the project description on hover */
+}
+
+@media (max-width: 991.98px) {
+  .project-container .touch .project-item .project-description {
+    bottom: 0;
+  } /* Touch effect instead of hover when screen size changes to md and sm */
+
+.backtop {
+	list-style: none;
+	list-style-type: none;
+}
+
+
+
+
